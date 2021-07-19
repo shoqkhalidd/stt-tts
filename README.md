@@ -20,6 +20,13 @@ or by using
 ```
 pip3 install -r requirements.txt 
 ```
+## Running 
+
+use 
+```
+python3 transcribe.py -t  
+```
+after -t please choose the time you want to record
 
 ## Output
 
