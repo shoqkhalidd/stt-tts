@@ -128,9 +128,9 @@ def chatbot():
        
     
 def tts():
-    authenticator = IAMAuthenticator("bBQPjbHb2wvM8-IdBWYU0kE0iZ56iC3OENakxqWNMyqm")
+    authenticator = IAMAuthenticator("APIkeys")
     tts = TextToSpeechV1(authenticator=authenticator)
-    tts.set_service_url("https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/eebda242-8041-430c-a53e-88cbce51e27d")
+    tts.set_service_url("URL")
 
     with open('./res.txt', 'r') as output:
         text=output.read()
