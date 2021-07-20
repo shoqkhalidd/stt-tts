@@ -8,8 +8,10 @@ the speech to text was cloned [from here](https://github.com/nicknochnack/RealTi
 
 for the text to speech part 
 in the tts() methods make sure to change the apikeys and the url for it to work 
-first it'll read the sentence that was made by the stt aka the res.ttx it'll synthesize said text to a speech 
-note the voice of the narrator can be changed [here](https://cloud.ibm.com/docs/text-to-speech?topic=text-to-speech-voices)
+first it'll read the sentence that was made by the stt aka the res.ttx it'll synthesize said text into a [mp3 file](speech.mp3)
+
+#### note:
+the voice of the narrator can be changed [here](https://cloud.ibm.com/docs/text-to-speech?topic=text-to-speech-voices)
 
 ## Requirements 
 
