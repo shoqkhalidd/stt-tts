@@ -4,7 +4,7 @@
 
 this project is a tool to convert speech to text then test to speech using IBM watson
 
-the speech to text was cloned [from](https://github.com/nicknochnack/RealTimeSpeechToText/tree/main/watson-streaming-stt) please check it out to understand how it works
+the speech to text was cloned [from here](https://github.com/nicknochnack/RealTimeSpeechToText/tree/main/watson-streaming-stt) please check it out to understand how it works
 
 for the text to speech part 
 in the tts() methods make sure to change the apikeys and the url for it to work 
