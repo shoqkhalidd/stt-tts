@@ -117,10 +117,10 @@ def on_message(self, msg):
 
      
 def chatbot():
-    authenticator = IAMAuthenticator('db4Z9XnGPJoBXvaj6tOP8AoOrcVMOEi3Apr9-dsTT5JH')
+    authenticator = IAMAuthenticator('apikeys')
     assistant = AssistantV2(version='2020-09-24',authenticator = authenticator)  
     response = assistant.message_stateless(
-    assistant_id='f4fc72a4-13bc-4588-9d43-bc8132557161',
+    assistant_id='assistant id',
     input={
         'message_type': 'text',
         'text': text
